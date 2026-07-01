@@ -1,5 +1,13 @@
 # Computational Control 2026 Rocket Lander Project
 
+
+
+https://github.com/user-attachments/assets/3b3ef64b-ba61-4297-b9c8-e3f24a045cfe
+
+
+
+Demo with wind, moving barge and critical initial conditions.
+
 A Box2D Gymnasium environment which simulates a Falcon 9 ocean barge landing. Various disturbances can occur: wind, moving barge, thruster failure, reduction of the nozzle angle range and mass mismatch.
 
 The control problem is solved by using MPC + Disturbance Estimation (Luenberger Observer) + Nested LQR - whose main focus is to keep the rocket upright.
